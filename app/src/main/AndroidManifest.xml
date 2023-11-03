@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Dark"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Biceps_lewy" />
+        <activity
+            android:name=".UpdateActivity_Waga"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_Waga"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Biceps_lewy" />
+        <activity
+            android:name=".UpdateActivity_Barki"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_Barki"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Barki" />
+        <activity
+            android:name=".UpdateActivity_Udo"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_Udo"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Udo" />
+        <activity
+            android:name=".UpdateActivity_Klata"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_Klata"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Klata" />
+        <activity
+            android:name=".UpdateActivity_FA"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_FA"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".FA" />
+        <activity
+            android:name=".UpdateActivity_Brzuch"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity_Brzuch"
+            android:exported="false"
+            android:label="Dodaj pomiar"
+            android:parentActivityName=".Brzuch" />
+        <activity
+            android:name=".Biceps_lewy"
+            android:exported="false"
+            android:label="Biceps lewy"/>
+        <activity
+            android:name=".Waga"
+            android:exported="false"
+            android:label="Waga" />
+        <activity
+            android:name=".Barki"
+            android:exported="false"
+            android:label="Barki" />
+        <activity
+            android:name=".Klata"
+            android:exported="false"
+            android:label="Klata" />
+        <activity
+            android:name=".Udo"
+            android:exported="false"
+            android:label="Udo" />
+        <activity
+            android:name=".FA"
+            android:exported="false"
+            android:label="Przedramię" />
+        <activity
+            android:name=".Brzuch"
+            android:exported="false"
+            android:label="Brzuch" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

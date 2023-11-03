@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pomiary</string>
+    <string name="title_home">Pomiary</string>
+    <string name="title_dashboard">Trening</string>
+    <string name="title_notifications">Profil</string>
+    <string name="title_activity_waga">Waga</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_barki">Barki</string>
+</resources>
